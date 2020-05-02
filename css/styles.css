@@ -1,3 +1,20 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Serif+Display&family=Karla:wght@400;700&display=swap');
+
+:root {
+  /* COLORS */
+  /* Primary Colors */
+  --dark-violet: hsl(256, 26%, 20%);
+  --grayish-blue: hsl(216, 30%, 68%);
+  /* Neutral Colors */
+  --very-dark-violet: hsl(270, 9%, 17%);
+  --dark-grayish-violet: hsl(273, 4%, 51%);
+  --very-light-gray: hsl(0, 0%, 98%);
+
+  /* TYPOGRAPHY */
+  --font-light: 400;
+  --font-heavy: 700;
+}
+
 html {
   box-sizing: border-box;
 }
@@ -6,4 +23,24 @@ html {
 *::before,
 *::after {
   box-sizing: inherit;
+}
+
+body {
+  font-family: 'Karla', sans-serif;
+  font-size: 16px;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: 'DM Serif Display', serif;
+  font-weight: var(--font-light);
+}
+
+footer h4 {
+  font-family: 'Karla', sans-serif;
+  font-weight: var(--font-heavy);
 }
