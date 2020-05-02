@@ -1,3 +1,4 @@
+/* BASE STYLES */
 @import url('https://fonts.googleapis.com/css2?family=DM+Serif+Display&family=Karla:wght@400;700&display=swap');
 
 :root {
@@ -43,4 +44,17 @@ h6 {
 footer h4 {
   font-family: 'Karla', sans-serif;
   font-weight: var(--font-heavy);
+}
+
+/* Mobile Layout */
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1.5rem;
+}
+
+nav .logo {
+  height: 100%;
 }
