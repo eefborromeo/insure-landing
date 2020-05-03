@@ -128,10 +128,35 @@ nav .logo {
 }
 
 /* FOOTER */
+footer {
+  background-color: var(--very-light-gray);
+  margin: 0;
+  padding: 6rem 0;
+  width: 100%;
+}
+
+footer h4 {
+  color: var(--dark-grayish-violet);
+  font-size: 0.8125rem;
+  letter-spacing: 1px;
+  margin: 2rem 0;
+  text-transform: uppercase;
+}
+
 footer ul {
   padding: 0;
 }
 
 footer ul li {
   list-style-type: none;
+  margin: 1rem 0;
+}
+
+footer ul li a {
+  color: var(--very-dark-violet);
+  font-size: 0.875rem;
+  font-weight: var(--font-heavy);
+  letter-spacing: 1px;
+  text-decoration: none;
+  text-transform: uppercase;
 }
