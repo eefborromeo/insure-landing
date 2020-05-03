@@ -90,12 +90,13 @@ nav .logo {
 
 .section-1 .content,
 .section-2 {
-  padding: 4.39rem 0;
+  padding: 5rem 0;
 }
 
 .section-1 h1,
 .section-2 h1 {
-  font-size: 2.7rem;
+  font-size: 2.8rem;
+  margin: 0;
 }
 
 .section-1 p,
@@ -105,6 +106,26 @@ nav .logo {
 
 .section-1 p {
   font-weight: var(--font-light);
+}
+
+.section-1 .content {
+  position: relative;
+  z-index: 1;
+}
+
+.section-1 .content::before {
+  content: url('../images/bg-pattern-intro-left-mobile.svg');
+  position: absolute;
+  z-index: -1;
+  top: -4px;
+  left: -30px;
+}
+
+.section-1 .content::after {
+  content: url('../images/bg-pattern-intro-right-mobile.svg');
+  position: absolute;
+  width: auto;
+  right: -27px;
 }
 
 /* SECTION 2 */
