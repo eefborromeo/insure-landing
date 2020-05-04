@@ -61,7 +61,7 @@ button {
 .content,
 footer {
   text-align: center;
-  width: 85%;
+  width: 86%;
   margin: auto;
 }
 
@@ -91,13 +91,17 @@ nav .logo {
 
 .section-1 .content,
 .section-2 {
-  padding: 5.25rem 0;
+  padding: 5.5rem 0;
 }
 
 .section-1 h1,
 .section-2 h1 {
-  font-size: 2.8rem;
-  margin: 0;
+  font-size: 2.9rem;
+}
+
+.section-1 h1 {
+  margin: 0.25rem 0;
+  line-height: 1.05;
 }
 
 .section-1 p,
@@ -130,11 +134,31 @@ nav .logo {
 }
 
 /* SECTION 2 */
-.section-2 h3 {
+.section-2 .content {
+  padding-top: 2.8rem;
+}
+
+.section-2 .content::before {
+  content: '';
+  display: inline-block;
+  width: 50%;
+  height: 1px;
+  background-color: hsl(250, 29%, 69%, 1);
+}
+
+.section-2 h1 {
+  margin: 2rem 0;
+}
+
+.content-box {
+  margin: 4rem 0;
+}
+
+.content-box h3 {
   font-size: 1.7rem;
 }
 
-.section-2 p {
+.content-box p {
   color: var(--dark-grayish-violet);
 }
 
