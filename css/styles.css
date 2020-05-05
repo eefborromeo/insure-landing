@@ -29,6 +29,7 @@ html {
 body {
   font-family: 'Karla', sans-serif;
   font-size: 16px;
+  background-color: #fff;
 }
 
 h1,
@@ -257,4 +258,16 @@ footer ul li a {
   height: 1px;
   background-color: hsla(0, 0%, 90%, 1);
   margin-top: 1.2rem;
+}
+
+.attribution {
+  background-color: var(--very-light-gray);
+  font-size: 0.8rem;
+  text-align: center;
+  text-transform: uppercase;
+  padding: 1.5rem 0;
+}
+
+.attribution a {
+  color: var(--very-dark-violet);
 }
