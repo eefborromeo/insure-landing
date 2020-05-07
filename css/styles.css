@@ -72,10 +72,13 @@ footer {
 }
 
 .menu {
+  background-color: #fff;
   display: flex;
   justify-content: space-between;
   align-items: center;
   padding: 1.5rem;
+  position: relative;
+  z-index: 5;
 }
 
 .menu .logo {
@@ -96,7 +99,13 @@ footer {
   text-align: center;
   width: 100vw;
   height: 100vh;
-  z-index: 5;
+  z-index: 3;
+  right: -100%;
+  transition: right 0.9s;
+}
+
+.menu-items.open {
+  right: 0%;
 }
 
 .menu-items li {
