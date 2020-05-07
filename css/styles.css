@@ -168,6 +168,7 @@ footer {
   position: absolute;
   width: auto;
   right: 0;
+  z-index: -1;
 }
 
 /* SECTION 2 */
