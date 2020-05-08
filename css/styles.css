@@ -85,6 +85,11 @@ footer {
   height: 100%;
 }
 
+.menu-icon:not(.active) .close {
+  transform: rotate(-180deg);
+  opacity: 0;
+}
+
 .menu-items {
   background-color: var(--very-dark-violet);
   background-image: url('../images/bg-pattern-mobile-nav.svg');
