@@ -85,12 +85,12 @@ footer {
   height: 100%;
 }
 
-.menu-icon:not(.active) .close {
+.menu:not(.active) .close {
   transform: rotate(-180deg);
   opacity: 0;
 }
 
-.menu-icon.active .hamburger {
+.menu.active .hamburger {
   transform: rotate(180deg);
   opacity: 0;
 }
@@ -117,11 +117,11 @@ footer {
   height: 100vh;
   z-index: 3;
   right: -100%;
-  transition: right 0.9s;
+  transition: all 0.5s ease-in-out;
 }
 
-.menu-items.open {
-  right: 0%;
+.menu.active + .menu-items {
+  right: 0;
 }
 
 .menu-items li {
