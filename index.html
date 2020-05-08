@@ -190,10 +190,12 @@
   </div>
   <script>
     const menu = document.querySelector('.menu');
+
+    function handleMenuToggle() {
+      this.classList.toggle('active');
+    }
     
-    menu.addEventListener('click', function() {
-      console.log(this);
-    });
+    menu.addEventListener('click', handleMenuToggle);
   </script>
 </body>
 </html>
