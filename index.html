@@ -193,6 +193,9 @@
 
     function handleMenuToggle() {
       this.classList.toggle('active');
+      this.classList.contains('active')
+        ? (document.body.style.position = 'fixed')
+        : document.body.removeAttribute('style');
     }
     
     menu.addEventListener('click', handleMenuToggle);
