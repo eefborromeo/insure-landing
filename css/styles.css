@@ -90,6 +90,11 @@ footer {
   opacity: 0;
 }
 
+.menu-icon.active .hamburger {
+  transform: rotate(180deg);
+  opacity: 0;
+}
+
 .menu-items {
   background-color: var(--very-dark-violet);
   background-image: url('../images/bg-pattern-mobile-nav.svg');
