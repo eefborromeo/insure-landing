@@ -95,6 +95,12 @@ footer {
   opacity: 0;
 }
 
+.hamburger,
+.close {
+  transform-origin: center;
+  transition: all 0.2s ease-in-out;
+}
+
 .menu-items {
   background-color: var(--very-dark-violet);
   background-image: url('../images/bg-pattern-mobile-nav.svg');
