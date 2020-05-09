@@ -191,12 +191,14 @@
   <script>
     const menu = document.querySelector('.menu');
 
-    function handleMenuToggle() {
+    const handleMenuToggle = () => {
       this.classList.toggle('active');
-      this.classList.contains('active')
-        ? (document.body.style.position = 'fixed')
-        : document.body.removeAttribute('style');
-    }
+      if (this.classList.contains('active')) {
+        document.body.style.position = 'fixed';
+      } else {
+        document.body.removeAttribute('style');
+      }
+    };
     
     menu.addEventListener('click', handleMenuToggle);
   </script>
