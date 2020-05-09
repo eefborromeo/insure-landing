@@ -71,6 +71,18 @@ footer {
   text-align: center;
 }
 
+.menu-items {
+  font-size: 1.2rem;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+.menu-items li {
+  text-transform: uppercase;
+  letter-spacing: 1.5px;
+}
+
 /* SECTION 1 */
 .section-1,
 .box {
@@ -258,7 +270,7 @@ footer ul li a {
 /* MEDIA QUERIES */
 
 /* Mobile Menu Styles */
-@media only screen and (max-width: 1023px) and (min-width: 320px) {
+@media screen and (max-width: 1023px) {
   .menu {
     background-color: #fff;
     display: flex;
@@ -295,9 +307,6 @@ footer ul li a {
     background-repeat: no-repeat;
     background-size: 100%;
     background-position: center bottom 13%;
-    font-size: 1.2rem;
-    list-style-type: none;
-    margin: 0;
     padding: 1.5rem;
     position: fixed;
     text-align: center;
@@ -305,17 +314,17 @@ footer ul li a {
     height: 100vh;
     z-index: 3;
     right: -100%;
+    visibility: hidden;
     transition: all 0.5s ease-in-out;
   }
 
   .menu.active + .menu-items {
     right: 0;
+    visibility: visible;
   }
 
   .menu-items li {
     color: var(--very-light-gray);
-    text-transform: uppercase;
-    letter-spacing: 1.5px;
     padding: 1rem 0;
     width: 88%;
     margin: 0.7rem auto;
