@@ -335,3 +335,37 @@ footer ul li a {
     margin-top: 1rem;
   }
 }
+
+@media screen and (min-width: 1024px) {
+  .menu-icon {
+    display: none;
+    visibility: hidden;
+  }
+
+  nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 1.2rem 1.5rem;
+  }
+
+  .menu-items {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    font-size: 0.85rem;
+    font-weight: var(--font-heavy);
+  }
+
+  .menu-items li {
+    color: var(--dark-grayish-violet);
+    margin-left: 1rem;
+  }
+
+  .menu-items li:last-child {
+    border: 1.5px solid var(--very-dark-violet);
+    color: var(--very-dark-violet);
+    padding: 0.5rem 1.2rem;
+    margin-left: 1.5rem;
+  }
+}
