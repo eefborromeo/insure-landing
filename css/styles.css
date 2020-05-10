@@ -416,7 +416,8 @@ footer ul li {
     left: 0;
   }
 
-  .section-1 .content {
+  .section-1 .content,
+  .section-2 .content {
     text-align: left;
     padding: 5rem 0;
   }
@@ -442,6 +443,30 @@ footer ul li {
   .section-1 button {
     margin-left: 0;
     margin-right: 0;
+  }
+
+  /* SECTION-2 */
+  .section-2 {
+    padding-bottom: 0;
+  }
+
+  .section-2 h1 {
+    font-size: 3.5rem;
+  }
+
+  .section-2 .content::before {
+    width: 13%;
+  }
+
+  .section-2 .content-boxes {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 3rem 0;
+  }
+  .content-boxes .content-box {
+    width: 30%;
+    margin: 0;
   }
 
   /* FOOTER */
