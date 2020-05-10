@@ -172,18 +172,12 @@ footer {
 
 /* BOX */
 .box {
+  background-image: url(../images/bg-pattern-how-we-work-mobile.svg);
+  background-repeat: no-repeat;
+  background-position: right top;
+  background-size: contain;
   padding: 3rem 2rem;
   margin-bottom: 8.75rem;
-  position: relative;
-  z-index: 1;
-}
-
-.box .content::before {
-  content: url(../images/bg-pattern-how-we-work-mobile.svg);
-  position: absolute;
-  top: 0;
-  right: 0;
-  z-index: -1;
 }
 
 .box h1 {
@@ -377,6 +371,7 @@ footer ul li {
   .footer-group {
     width: 90%;
     margin: auto;
+    text-align: left;
   }
 
   /* SECTION 1 */
@@ -418,7 +413,6 @@ footer ul li {
 
   .section-1 .content,
   .section-2 .content {
-    text-align: left;
     padding: 5rem 0;
   }
 
@@ -467,6 +461,24 @@ footer ul li {
   .content-boxes .content-box {
     width: 30%;
     margin: 0;
+  }
+
+  /* BOX */
+  .box {
+    background-image: url('../images/bg-pattern-how-we-work-desktop.svg');
+    padding: 2rem;
+    margin-bottom: 8rem;
+  }
+
+  .box .content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  .box h1 {
+    font-size: 2.7rem;
+    width: 50%;
   }
 
   /* FOOTER */
