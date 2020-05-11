@@ -59,7 +59,7 @@ button {
 }
 
 /* Mobile Layout */
-.content,
+.content > *:not(button),
 .box,
 footer {
   width: 86%;
@@ -107,7 +107,7 @@ footer {
 }
 
 .section-1 h1 {
-  margin: 0.25rem 0;
+  margin: 0.25rem auto;
   line-height: 1.05;
 }
 
@@ -120,12 +120,12 @@ footer {
   font-weight: var(--font-light);
 }
 
-.section-1 .bg-pattern {
+.section-1 .content {
   position: relative;
   z-index: 1;
 }
 
-.section-1 .bg-pattern::before {
+.section-1 .content::before {
   content: url('../images/bg-pattern-intro-left-mobile.svg');
   position: absolute;
   z-index: -1;
@@ -155,7 +155,7 @@ footer {
 }
 
 .section-2 h1 {
-  margin: 2rem 0;
+  margin: 2rem auto;
 }
 
 .content-box {
@@ -251,7 +251,7 @@ footer ul li {
 
 .attribution {
   background-color: var(--very-light-gray);
-  font-size: 0.8rem;
+  font-size: 0.65rem;
   text-align: center;
   text-transform: uppercase;
   padding: 1.5rem 0;
@@ -397,6 +397,7 @@ footer ul li {
     background-repeat: no-repeat;
     background-position: 108% -15px;
     background-size: 30%;
+    width: 100%;
   }
 
   .section-1 .content::after {
@@ -522,3 +523,28 @@ footer ul li {
     margin-right: 7rem;
   }
 }
+
+/* @media screen and (min-width: 1440px) {
+  header,
+  .section-1 .content {
+    max-width: 1200px;
+    margin: auto;
+  }
+
+  nav {
+    padding: 1.2rem 0;
+  }
+
+  .section-1 img {
+    top: 8rem;
+    right: 8.3%;
+  }
+
+  .section-1 .bg-pattern {
+    width: 100%;
+  }
+
+  .section-1 .content {
+    padding: 8rem 0;
+  }
+} */
