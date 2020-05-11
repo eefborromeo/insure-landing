@@ -194,7 +194,7 @@
   <script>
     const menu = document.querySelector('.menu');
 
-    const handleMenuToggle = () => {
+    function handleMenuToggle() {
       this.classList.toggle('active');
       if (this.classList.contains('active')) {
         document.body.style.position = 'fixed';
