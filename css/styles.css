@@ -493,7 +493,7 @@ footer ul li {
     background-image: url('../images/bg-pattern-footer-desktop.svg');
     background-size: 50%;
     background-position: top left;
-    padding: 2.5rem 0;
+    padding: 2rem 5rem;
   }
 
   footer h4,
@@ -522,7 +522,8 @@ footer ul li {
 
   .footer-group {
     display: flex;
-    margin-top: 1.5rem;
+    margin-top: 1rem;
+    justify-content: space-between;
   }
 
   .footer-group ul {
