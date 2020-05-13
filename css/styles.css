@@ -469,7 +469,7 @@ footer ul li {
   .box {
     background-image: url('../images/bg-pattern-how-we-work-desktop.svg');
     padding: 2rem;
-    margin-bottom: 8rem;
+    margin: 0 5rem 8rem;
   }
 
   .box .content {
