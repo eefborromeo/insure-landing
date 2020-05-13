@@ -58,6 +58,37 @@ button {
   text-transform: uppercase;
 }
 
+/* Active Styles */
+.menu-items li:hover {
+  color: var(--very-dark-violet);
+  cursor: pointer;
+}
+
+.menu-items li:last-child:hover {
+  background-color: var(--very-dark-violet);
+  color: var(--very-light-gray);
+}
+
+button:hover {
+  background-color: var(--very-light-gray);
+  color: var(--very-dark-violet);
+  cursor: pointer;
+}
+
+.footer-icons .icon {
+  fill: #837d88;
+}
+
+.footer-icons .icon:hover {
+  cursor: pointer;
+  fill: var(--very-dark-violet);
+}
+
+.footer-group ul li a:hover {
+  cursor: pointer;
+  text-decoration: underline;
+}
+
 /* Mobile Layout */
 .content > *:not(button),
 .box,
