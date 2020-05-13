@@ -468,7 +468,7 @@ footer ul li {
   /* BOX */
   .box {
     background-image: url('../images/bg-pattern-how-we-work-desktop.svg');
-    padding: 2rem;
+    padding: 2rem 4rem;
     margin: 0 5rem 8rem;
   }
 
@@ -478,8 +478,13 @@ footer ul li {
     align-items: center;
   }
 
+  .box h1,
+  .box button {
+    margin: 0;
+  }
+
   .box h1 {
-    font-size: 2.7rem;
+    font-size: 2.9rem;
     width: 50%;
   }
 
