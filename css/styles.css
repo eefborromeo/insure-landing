@@ -380,7 +380,7 @@ footer ul li {
     display: flex;
     align-items: center;
     justify-content: flex-end;
-    font-size: 0.65rem;
+    font-size: 0.7rem;
     font-weight: var(--font-heavy);
   }
 
