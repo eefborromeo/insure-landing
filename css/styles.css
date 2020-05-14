@@ -442,9 +442,9 @@ footer ul li {
     content: '';
     background-image: url(../images/bg-pattern-intro-left-desktop.svg);
     background-repeat: no-repeat;
-    background-position: left 20%;
+    background-position: left 25%;
     background-size: contain;
-    width: 15%;
+    width: 12%;
     height: 100%;
     right: unset;
     left: 0;
