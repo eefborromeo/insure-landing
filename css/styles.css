@@ -455,6 +455,10 @@ footer ul li {
     font-size: 3.5rem;
   }
 
+  .section-1 h1 {
+    margin-top: 0;
+  }
+
   .section-1 h1::before {
     content: '';
     background-color: #fff;
@@ -587,11 +591,11 @@ footer ul li {
 
   .section-1 .content,
   .section-2 {
-    padding: 6.5rem 10rem;
+    padding: 7.2rem 10rem;
   }
 
   .section-1 img {
-    margin: 6.5rem 10rem 0 2rem;
+    margin: 6.5rem 10rem 0 2.5rem;
     width: 38%;
   }
 
@@ -612,7 +616,7 @@ footer ul li {
   }
 
   .section-1 .content::after {
-    background-position: left 0;
+    background-position: left 12%;
     width: 14%;
   }
 
